@@ -101,7 +101,7 @@ def Borrow_Book():
                                 print("Book already borrowed!")
                                 return
         print("Book not found!")
-def Return_Book():
+def Return_Book():#camel case và snake case
         book_borrowed=None
         isMember=False
         member_id= input("Enter member's id: ")
@@ -131,7 +131,7 @@ def Return_Book():
                 print("Not found member's id!")
       
 #Member Manager------------     
-def Register_a_new_member():
+def register_a_new_member():
         name= input("Name: ")
         while True:
                 member_id= input("Member's ID: ")

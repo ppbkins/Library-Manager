@@ -25,13 +25,13 @@ def Main():
                         continue
 
                 if choice == 1:
-                        lm.AddBook()
+                        lm.AddBook()# cho vào mảng
                 elif choice == 2:
                         lm.DelBook()
                 elif choice == 3:
                         books.show_books()
                 elif choice == 4:
-                        lm.Register_a_new_member()
+                        lm.register_a_new_member()
                 elif choice == 5:
                         members.show_members()
                 elif choice == 6:
